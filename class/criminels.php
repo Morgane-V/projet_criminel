@@ -2,6 +2,7 @@
 
 class Criminels{
 
+    private $id_r;
     private $_nom_r;
     private $_prenom_r;
     private $_date_de_naissance_r;
@@ -18,6 +19,15 @@ class Criminels{
     /**
      * GETTER
      */
+
+
+        /**
+         * Get the value of id_r
+        */ 
+        public function getId_r()
+        {
+            return $this->id_r;
+        }
 
         /**
          * Get the value of _nom_r
@@ -95,6 +105,20 @@ class Criminels{
     /**
      * SETTER
      */
+
+
+            /**
+         * Set the value of id_r
+         *
+         * @return  self
+         */ 
+        public function setId_r($id_r)
+        {
+            $this->id_r = $id_r;
+
+            return $this;
+        }
+
 
         /**
          * Set the value of _nom_r
@@ -203,4 +227,7 @@ class Criminels{
 
             return $this;
         }
+
+
+
 }

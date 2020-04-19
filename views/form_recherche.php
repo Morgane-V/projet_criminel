@@ -10,7 +10,7 @@
 <?php ob_start(); ?>
     <!--formulaire de recherche-->
         <div class="connexion">
-            <form method="POST" action="../models/recherche_crimi.php">
+            <form method="POST" action="../controllers/recherche_ctrl.php">
             <h1 class="h3 mb-3 font-weight-normal">Rechercher un criminel</h1>
                 <div class="form-group">
                     <input type="text" id="inputNom" class="text-center" name="nom" placeholder="Nom">
